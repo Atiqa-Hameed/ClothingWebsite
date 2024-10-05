@@ -1,3 +1,29 @@
+/* Ensure this is at the very top of the file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* Import Euclid Circular A font files if self-hosting */
+@font-face {
+  font-family: 'Euclid Circular A';
+  src: url('/fonts/EuclidCircularA-Regular.woff2') format('woff2'),
+       url('/fonts/EuclidCircularA-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Global styles */
+body {
+  @apply font-sans; /* Default font: Poppins */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-euclid; /* Headings: Euclid Circular A */
+}
+
+p {
+  @apply font-serif; /* Paragraphs: Libre Baskerville */
+}
