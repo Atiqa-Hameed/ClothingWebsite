@@ -297,6 +297,207 @@ const App = () => {
         
       ],
     },
+    {
+      id: 13,
+      title: "Womens Denim Jacket",
+      imageUrls: [
+        "/src/assets/img1.png",
+        "/src/assets/img1.png",
+        "/src/assets/img1.png",
+        "/src/assets/img1.png",
+        "/src/assets/img1.png",
+      ],
+      price: 700,
+      originalPrice: 1000,
+      discount: '30% off',
+      rating: 4.4,
+      reviewsCount: 40,
+      sizes: ['XS', 'S', 'M', 'L', 'XL'],
+      colors: ['blue', 'red', 'gray'],
+      offers: [
+        'Special offer get 25% off',
+        'Bank offer get 30% off on Axis Bank Credit card',
+        'Wallet offer get 40% cashback via Paytm wallet on first transaction',
+        'Special offer get 25% off'
+        
+      ],
+    },
+    {
+      id: 14,
+      title: 'Womens Denim Jacket - Variant',
+      imageUrls: [
+        "/src/assets/img5.png",
+        "/src/assets/img5.png",
+        "/src/assets/img5.png",
+        "/src/assets/img5.png",
+        "/src/assets/img5.png",
+      ],
+      price: 700,
+      originalPrice: 1000,
+      discount: '30% off',
+      rating: 4.4,
+      reviewsCount: 40,
+      sizes: ['XS', 'S', 'M', 'L', 'XL'],
+      colors: ['blue', 'red', 'gray'],
+      offers: [
+        'Special offer get 25% off',
+        'Bank offer get 30% off on Axis Bank Credit card',
+        'Wallet offer get 40% cashback via Paytm wallet on first transaction',
+        'Special offer get 25% off'
+        
+      ],
+    },
+    {
+      id: 15,
+      title: 'Womens Denim Jacket - Variant',
+      imageUrls: [
+        "/src/assets/7.png",
+        "/src/assets/7.png",
+        "/src/assets/7.png",
+        "/src/assets/7.png",
+        "/src/assets/7.png",
+      ],
+      price: 700,
+      originalPrice: 1000,
+      discount: '30% off',
+      rating: 4.4,
+      reviewsCount: 40,
+      sizes: ['XS', 'S', 'M', 'L', 'XL'],
+      colors: ['blue', 'red', 'gray'],
+      offers: [
+        'Special offer get 25% off',
+        'Bank offer get 30% off on Axis Bank Credit card',
+        'Wallet offer get 40% cashback via Paytm wallet on first transaction',
+        'Special offer get 25% off'
+        
+      ],
+    },
+    {
+      id: 16,
+      title: 'Womens Denim Jacket - Variant',
+      imageUrls: [
+        "/src/assets/img4.png",
+        "/src/assets/img4.png",
+        "/src/assets/img4.png",
+        "/src/assets/img4.png",
+        "/src/assets/img4.png",
+      ],
+      price: 700,
+      originalPrice: 1000,
+      discount: '30% off',
+      rating: 4.4,
+      reviewsCount: 40,
+      sizes: ['XS', 'S', 'M', 'L', 'XL'],
+      colors: ['blue', 'red', 'gray'],
+      offers: [
+        'Special offer get 25% off',
+        'Bank offer get 30% off on Axis Bank Credit card',
+        'Wallet offer get 40% cashback via Paytm wallet on first transaction',
+        'Special offer get 25% off'
+        
+      ],
+    },
+    {
+      id: 17,
+      title: 'Womens Denim Jacket',
+      imageUrls: [
+        "/src/assets/img2.png",
+        "/src/assets/img2.png",
+        "/src/assets/img2.png",
+        "/src/assets/img2.png",
+        "/src/assets/img2.png",
+      ],
+      price: 700,
+      originalPrice: 1000,
+      discount: '30% off',
+      rating: 4.4,
+      reviewsCount: 40,
+      sizes: ['XS', 'S', 'M', 'L', 'XL'],
+      colors: ['blue', 'red', 'gray'],
+      offers: [
+        'Special offer get 25% off',
+        'Bank offer get 30% off on Axis Bank Credit card',
+        'Wallet offer get 40% cashback via Paytm wallet on first transaction',
+        'Special offer get 25% off'
+        
+      ],
+    },
+    {
+      id: 18,
+      title: 'Womens Denim Jacket',
+      imageUrls: [
+        "/src/assets/img6.png",
+        "/src/assets/img6.png",
+        "/src/assets/img6.png",
+        "/src/assets/img6.png",
+        "/src/assets/img6.png",
+      ],
+      price: 700,
+      originalPrice: 1000,
+      discount: '30% off',
+      rating: 4.4,
+      reviewsCount: 40,
+      sizes: ['XS', 'S', 'M', 'L', 'XL'],
+      colors: ['blue', 'red', 'gray'],
+      offers: [
+        'Special offer get 25% off',
+        'Bank offer get 30% off on Axis Bank Credit card',
+        'Wallet offer get 40% cashback via Paytm wallet on first transaction',
+        'Special offer get 25% off'
+        
+      ],
+    },
+    {
+      id: 19,
+      title: 'Womens Denim Jacket',
+      imageUrls: [
+        "/src/assets/img3.png",
+        "/src/assets/img3.png",
+        "/src/assets/img3.png",
+        "/src/assets/img3.png",
+        "/src/assets/img3.png",
+      ],
+      price: 700,
+      originalPrice: 1000,
+      discount: '30% off',
+      rating: 4.4,
+      reviewsCount: 40,
+      sizes: ['XS', 'S', 'M', 'L', 'XL'],
+      colors: ['blue', 'red', 'gray'],
+      offers: [
+        'Special offer get 25% off',
+        'Bank offer get 30% off on Axis Bank Credit card',
+        'Wallet offer get 40% cashback via Paytm wallet on first transaction',
+        'Special offer get 25% off'
+        
+      ],
+    },
+    {
+      id: 20,
+      title: 'Womens Denim Jacket',
+      imageUrls: [
+        "/src/assets/7.png",
+        "/src/assets/7.png",
+        "/src/assets/7.png",
+        "/src/assets/7.png",
+        "/src/assets/7.png",
+      ],
+      price: 700,
+      originalPrice: 1000,
+      discount: '30% off',
+      rating: 4.4,
+      reviewsCount: 40,
+      sizes: ['XS', 'S', 'M', 'L', 'XL'],
+      colors: ['blue', 'red', 'gray'],
+      offers: [
+        'Special offer get 25% off',
+        'Bank offer get 30% off on Axis Bank Credit card',
+        'Wallet offer get 40% cashback via Paytm wallet on first transaction',
+        'Special offer get 25% off'
+        
+      ],
+    },
+   
   ];
   return (
     <Router>
