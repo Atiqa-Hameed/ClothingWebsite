@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <div>
       {/* Hero Section */}
-      <div className="bg-customBeige h-auto md:h-[500px] lg:h-[580px] flex flex-col md:flex-row justify-between items-center pt-2">
+      <div className="bg-customBeige h-auto md:h-[500px] lg:h-[580px] flex flex-col md:flex-row justify-between items-center pt-6">
         {/* Left Side: Text */}
         <div className="relative z-10 text-center md:text-left px-6 md:px-10 lg:px-20">
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4 font-poppins text-customGreen lg:leading-tight">
@@ -23,7 +23,7 @@ const HeroSection = () => {
         </div>
         
         {/* Right Side: Image Div with Overlay */}
-        <div className="relative h-full flex items-end px-6 md:px-10 lg:px-20 pt-6"> {/* Removed pt-12 */}
+        <div className="relative h-full flex items-end px-6 md:px-10 lg:px-20 pt-8"> {/* Removed pt-12 */}
           {/* Background div for overlay */}
           <div className="w-[500] h-[500px] md:w-[450px] md:h-[450px] lg:h-[500px] lg:w-[500px] bg-customGreen relative flex justify-center items-center rounded-t-[50px] md:rounded-t-[80px] lg:rounded-t-[100px]">
             

@@ -234,8 +234,9 @@ const ProductDetailPage = ({ products }) => {
         <SimilarProducts title="Similar Products" products={similarProducts} />
         <SimilarProducts title="Customer Also Like" products={moresimilarProducts} />
 
-        <Footer />
       </div>
+      <Footer />
+
     </div>
   );
 };
