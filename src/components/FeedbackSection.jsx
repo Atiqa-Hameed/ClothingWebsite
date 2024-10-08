@@ -45,7 +45,7 @@ const FeedbackSection = () => {
   };
 
   return (
-    <div className="px-4 bg-white flex flex-col justify-center items-center">
+    <div className="px-4 bg-white flex flex-col justify-center items-center overflow-hidden">
       {/* Title */}
       <h2 className="text-3xl md:text-4xl font-bold text-customGreen text-center mb-14 mt-40">
         Clients Feedback

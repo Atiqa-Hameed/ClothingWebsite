@@ -13,7 +13,7 @@ const Header = ({ backgroundColor = 'bg-customBeige' }) => {
   };
 
   return (
-    <header className={`flex flex-col md:flex-row justify-between items-center pt-6 px-8 md:px-16 lg:px-28 ${backgroundColor}`}>
+    <header className={`flex flex-col md:flex-row justify-between items-center pt-8 px-8 md:px-16 lg:px-24 ${backgroundColor}`}>
       
       {/* Small screen: centered logo, bag, and login; toggle on right */}
       <div className="w-full flex justify-between items-center md:hidden">
@@ -84,7 +84,7 @@ const Header = ({ backgroundColor = 'bg-customBeige' }) => {
       </div>
 
       {/* Navigation Links for Small Screens (shown in toggle) */}
-      <nav className={`flex-col md:hidden ${isMenuOpen ? 'flex' : 'hidden'} mt-4`}>
+      <nav className={`flex-wrap flex-row md:hidden gap-6 justify-center ${isMenuOpen ? 'flex' : 'hidden'} mt-4`}>
         <NavLink to='/' className="text-customGreen hover:underline underline-offset-4">HOME</NavLink>
         <NavLink to='/shoppage' className="text-customGreen hover:underline underline-offset-4">SHOP</NavLink>
         <NavLink to='/aboutus' className="text-customGreen hover:underline underline-offset-4">ABOUT US</NavLink>
