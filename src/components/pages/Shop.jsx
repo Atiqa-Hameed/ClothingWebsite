@@ -66,7 +66,7 @@ const Shop = () => {
                 <Card 
                   key={product.id} 
                   product={product} 
-                  cardSize="small"
+                  cardSize="medium"
                   backgroundColor="bg-gray-200"
                   imageClass="object-contain w-full h-full"
                 />
