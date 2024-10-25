@@ -1,10 +1,10 @@
 /* Ensure this is at the very top of the file */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap');
+
+/* Tailwind CSS imports */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 
 /* Import Euclid Circular A font files if self-hosting */
 @font-face {
@@ -13,6 +13,22 @@
        url('/fonts/EuclidCircularA-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+/* Ensure you define font classes for Tailwind */
+@layer base {
+  @font-face {
+    font-family: 'Euclid Circular A';
+    src: url('/fonts/EuclidCircularA-Regular.woff2') format('woff2'),
+         url('/fonts/EuclidCircularA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* Add font utility classes for Tailwind */
+  .font-euclid {
+    font-family: 'Euclid Circular A', sans-serif;
+  }
 }
 
 /* Global styles */
