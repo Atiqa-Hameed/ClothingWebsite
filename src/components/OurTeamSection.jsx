@@ -1,9 +1,9 @@
 import React from 'react'
 const images = [
-    { src: "/src/assets/men.png", alt: "First Image Description" },
-    { src: "/src/assets/second.png", alt: "Second Image Description" },
-    { src: "/src/assets/men.png", alt: "Third Image Description" },
-    { src: "/src/assets/second.png", alt: "Fourth Image Description" },
+    { src: "/men.png", alt: "First Image Description" },
+    { src: "/second.png", alt: "Second Image Description" },
+    { src: "/men.png", alt: "Third Image Description" },
+    { src: "/second.png", alt: "Fourth Image Description" },
   ];
 const OurTeamSection = () => {
   return (

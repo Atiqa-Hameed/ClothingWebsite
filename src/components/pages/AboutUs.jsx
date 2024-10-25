@@ -28,7 +28,7 @@ const AboutUs = () => {
         {/* Right Side: Image */}
         <div className="lg:w-1/3">
           <img
-            src="/src/assets/7.png" 
+            src="/7.png" 
             alt="About Us"
             className="w-[400px] md:w-[500px] lg:w-full h-auto rounded-lg shadow-lg mx-auto lg:mx-0"
           />
@@ -45,7 +45,7 @@ const AboutUs = () => {
           {/* Left Side: Image */}
           <div className="relative h-full flex items-end justify-start">
             <img
-              src="/src/assets/a.png" // Replace with your image URL
+              src="/a.png" // Replace with your image URL
               alt="Descriptive Alt Text"
               className="w-[300px] md:w-[400px] lg:w-[500px] h-auto object-cover"
             />

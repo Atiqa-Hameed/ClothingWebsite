@@ -2,17 +2,17 @@ import React from 'react';
 
 const accessoriesData = [
   {
-    imgSrc: '/src/assets/6.png',
+    imgSrc: '/6.png',
     bgClass: 'bg-gray-300',
     description: 'Lorem ipsum dolor sit amet consectetur. Mi enim a curabitur odio risus donec quis donec vel.'
   },
   {
-    imgSrc: '/src/assets/12.png',
+    imgSrc: '/12.png',
     bgClass: 'bg-pink-100',
     description: 'Lorem ipsum dolor sit amet consectetur. Nisl elit potenti diam quis condimentum sed purus suspendisse.'
   },
   {
-    imgSrc: '/src/assets/10.png',
+    imgSrc: '/10.png',
     bgClass: 'bg-gray-200',
     description: 'Lorem ipsum dolor sit amet consectetur. Fermentum dolor id cras in eu tempor euismod ac.'
   }

@@ -7,7 +7,7 @@ const LoginPage = () => {
     <div
       className="min-h-screen flex justify-center items-center"
       style={{
-        backgroundImage: "url('/src/assets/Login.png')",
+        backgroundImage: "url('/Login.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

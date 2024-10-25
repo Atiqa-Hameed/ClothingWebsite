@@ -6,7 +6,7 @@ const ExclusiveOffersection = () => {
     {/* Left Side Image */}
     <div className="relative w-full md:w-1/2 h-[250px] md:h-full flex items-end justify-center">
       <img
-        src="/src/assets/13.png"
+        src="/13.png"
         alt="Exclusive Offer"
         className="w-[400px] md:w-[600px] lg:w-[700px] h-auto object-cover"
       />

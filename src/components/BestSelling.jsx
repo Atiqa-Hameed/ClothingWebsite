@@ -2,24 +2,24 @@ import React from "react";
 import Card from "./Card";
 import Slider from "./Slider";
 const newproducts = [
-  { id: 1, title: "Leather Jacket", price: 199.99, imageUrl: "/src/assets/9.png", rating: 4.5 },
-  { id: 2, title: "Denim Jeans", price: 79.99, imageUrl: "/src/assets/7.png", rating: 4.0 },
-  { id: 3, title: "Classic Watch", price: 149.99, imageUrl: "/src/assets/2.png", rating: 4.8 },
-  { id: 4, title: "Womens Denim Jacket", price: 99.99, imageUrl: "/src/assets/7.png", rating: 5.0 },
-  { id: 3, title: "Classic Jeans", price: 149.99, imageUrl: "/src/assets/img5.png", rating: 4.8 },
-  { id: 4, title: "Dior Jacket", price: 99.99, imageUrl: "/src/assets/img3.png", rating: 5.0 },
+  { id: 1, title: "Leather Jacket", price: 199.99, imageUrl: "/9.png", rating: 4.5 },
+  { id: 2, title: "Denim Jeans", price: 79.99, imageUrl: "/7.png", rating: 4.0 },
+  { id: 3, title: "Classic Watch", price: 149.99, imageUrl: "/2.png", rating: 4.8 },
+  { id: 4, title: "Womens Denim Jacket", price: 99.99, imageUrl: "/7.png", rating: 5.0 },
+  { id: 3, title: "Classic Jeans", price: 149.99, imageUrl: "/img5.png", rating: 4.8 },
+  { id: 4, title: "Dior Jacket", price: 99.99, imageUrl: "/img3.png", rating: 5.0 },
   
 ];
 
 const newdata = [
-  { id: 5, title: "Summer Wind T-shirt", price: 31.99, imageUrl: "/src/assets/18s.png", rating: 4.2 },
-  { id: 6, title: "Tailored Jacket", price: 38.99, imageUrl: "/src/assets/20.png", rating: 4.5 },
-  { id: 7, title: "Formal Classic Suit", price: 50.0, imageUrl: "/src/assets/11.png", rating: 4.0 },
-  { id: 8, title: "White Solid Formal T-shirt", price: 42.09, imageUrl: "/src/assets/15.png", rating: 5.0 },
-  { id: 9, title: "Tailored Jacket", price: 41.03, imageUrl: "/src/assets/17.png", rating: 4.1 },
-  { id: 10, title: "Solid White Summer T-shirt", price: 29.99, imageUrl: "/src/assets/16.png", rating: 4.2 },
-  { id: 11, title: "Classic Top", price: 24.54, imageUrl: "/src/assets/3.png", rating: 3.8 },
-  { id: 12, title: "Formal Jeans", price: 38.09, imageUrl: "/src/assets/19.png", rating: 5.0 }
+  { id: 5, title: "Summer Wind T-shirt", price: 31.99, imageUrl: "/18s.png", rating: 4.2 },
+  { id: 6, title: "Tailored Jacket", price: 38.99, imageUrl: "/20.png", rating: 4.5 },
+  { id: 7, title: "Formal Classic Suit", price: 50.0, imageUrl: "/11.png", rating: 4.0 },
+  { id: 8, title: "White Solid Formal T-shirt", price: 42.09, imageUrl: "/15.png", rating: 5.0 },
+  { id: 9, title: "Tailored Jacket", price: 41.03, imageUrl: "/17.png", rating: 4.1 },
+  { id: 10, title: "Solid White Summer T-shirt", price: 29.99, imageUrl: "/16.png", rating: 4.2 },
+  { id: 11, title: "Classic Top", price: 24.54, imageUrl: "/3.png", rating: 3.8 },
+  { id: 12, title: "Formal Jeans", price: 38.09, imageUrl: "/19.png", rating: 5.0 }
 ];
 
 

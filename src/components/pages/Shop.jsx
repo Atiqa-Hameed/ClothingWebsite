@@ -6,22 +6,22 @@ import Card from '../Card'; // Assuming you're using a Card component for produc
 import Filters from '../Filters';
 
 const newdata = [
-  { id: 5, title: "Summer Wind T-shirt", price: 31.99, imageUrl: "/src/assets/18s.png", rating: 4.2 },
-  { id: 6, title: "Tailored Jacket", price: 38.99, imageUrl: "/src/assets/20.png", rating: 4.5 },
-  { id: 8, title: "White Solid Formal T-shirt", price: 42.09, imageUrl: "/src/assets/15.png", rating: 5.0 },
-  { id: 11, title: "Classic Top", price: 24.54, imageUrl: "/src/assets/3.png", rating: 3.8 },
-  { id: 9, title: "Tailored Jacket", price: 41.03, imageUrl: "/src/assets/17.png", rating: 4.1 },
-  { id: 10, title: "Solid White Summer T-shirt", price: 29.99, imageUrl: "/src/assets/16.png", rating: 4.2 },
-  { id: 7, title: "Formal Classic Suit", price: 38.09, imageUrl: "/src/assets/11.png", rating: 5.0 },
-  { id: 9, title: "Casual Pants", price: 45.00, imageUrl: "/src/assets/17.png", rating: 4.3 },
-  { id: 6, title: "Elegant Dress", price: 55.50, imageUrl: "/src/assets/20.png", rating: 4.7 },
-  { id: 9, title: "Stylish Jacket", price: 72.99, imageUrl: "/src/assets/17.png", rating: 4.6 },
-  { id: 12, title: "Trendy Shoes", price: 59.99, imageUrl: "/src/assets/19.png", rating: 4.8 },
-  { id: 8, title: "Classic Cap", price: 20.99, imageUrl: "/src/assets/15.png", rating: 4.1 },
-  { id: 11, title: "T-shirt", price: 22.50, imageUrl: "/src/assets/3.png", rating: 4.5 },
-  { id: 9, title: "Luxury Handbag", price: 89.99, imageUrl: "/src/assets/17.png", rating: 4.4 },
-  { id: 12, title: "Formal Jeans", price: 45.50, imageUrl: "/src/assets/19.png", rating: 4.6 },
-  { id: 6, title: "Sunglasses", price: 30.99, imageUrl: "/src/assets/20.png", rating: 4.8 },
+  { id: 5, title: "Summer Wind T-shirt", price: 31.99, imageUrl: "/18s.png", rating: 4.2 },
+  { id: 6, title: "Tailored Jacket", price: 38.99, imageUrl: "/20.png", rating: 4.5 },
+  { id: 8, title: "White Solid Formal T-shirt", price: 42.09, imageUrl: "/15.png", rating: 5.0 },
+  { id: 11, title: "Classic Top", price: 24.54, imageUrl: "/3.png", rating: 3.8 },
+  { id: 9, title: "Tailored Jacket", price: 41.03, imageUrl: "/17.png", rating: 4.1 },
+  { id: 10, title: "Solid White Summer T-shirt", price: 29.99, imageUrl: "/16.png", rating: 4.2 },
+  { id: 7, title: "Formal Classic Suit", price: 38.09, imageUrl: "/11.png", rating: 5.0 },
+  { id: 9, title: "Casual Pants", price: 45.00, imageUrl: "/17.png", rating: 4.3 },
+  { id: 6, title: "Elegant Dress", price: 55.50, imageUrl: "/20.png", rating: 4.7 },
+  { id: 9, title: "Stylish Jacket", price: 72.99, imageUrl: "/17.png", rating: 4.6 },
+  { id: 12, title: "Trendy Shoes", price: 59.99, imageUrl: "/19.png", rating: 4.8 },
+  { id: 8, title: "Classic Cap", price: 20.99, imageUrl: "/15.png", rating: 4.1 },
+  { id: 11, title: "T-shirt", price: 22.50, imageUrl: "/3.png", rating: 4.5 },
+  { id: 9, title: "Luxury Handbag", price: 89.99, imageUrl: "/17.png", rating: 4.4 },
+  { id: 12, title: "Formal Jeans", price: 45.50, imageUrl: "/19.png", rating: 4.6 },
+  { id: 6, title: "Sunglasses", price: 30.99, imageUrl: "/20.png", rating: 4.8 },
 ];
 
 const headings = [

@@ -16,7 +16,7 @@ const ProductDetailPage = ({ products }) => {
       originalPrice: '1000',
       discount: '30%',
       rating: 4.4,
-      image: '/src/assets/img1.png',
+      image: '/img1.png',
     },
     {
       id: 14,
@@ -25,7 +25,7 @@ const ProductDetailPage = ({ products }) => {
       originalPrice: '1000',
       discount: '30%',
       rating: 4.4,
-      image: '/src/assets/img5.png',
+      image: '/img5.png',
     },
     {
       id: 15,
@@ -34,7 +34,7 @@ const ProductDetailPage = ({ products }) => {
       originalPrice: '1000',
       discount: '30%',
       rating: 4.4,
-      image: '/src/assets/7.png',
+      image: '/7.png',
     },
     {
       id: 16,
@@ -43,7 +43,7 @@ const ProductDetailPage = ({ products }) => {
       originalPrice: '1000',
       discount: '30%',
       rating: 4.4,
-      image: '/src/assets/img4.png',
+      image: '/img4.png',
     },
   ];
   const moresimilarProducts = [
@@ -54,7 +54,7 @@ const ProductDetailPage = ({ products }) => {
       originalPrice: '1000',
       discount: '30%',
       rating: 4.4,
-      image: '/src/assets/img2.png',
+      image: '/img2.png',
     },
     {
       id: 18,
@@ -63,7 +63,7 @@ const ProductDetailPage = ({ products }) => {
       originalPrice: '1000',
       discount: '30%',
       rating: 4.4,
-      image: '/src/assets/img6.png',
+      image: '/img6.png',
     },
     {
       id: 19,
@@ -72,7 +72,7 @@ const ProductDetailPage = ({ products }) => {
       originalPrice: '1000',
       discount: '30%',
       rating: 4.4,
-      image: '/src/assets/img3.png',
+      image: '/img3.png',
     },
     {
       id: 20,
@@ -81,7 +81,7 @@ const ProductDetailPage = ({ products }) => {
       originalPrice: '1000',
       discount: '30%',
       rating: 4.4,
-      image: '/src/assets/7.png',
+      image: '/7.png',
     },
   ];
   const { id } = useParams(); // Get the product ID from the URL

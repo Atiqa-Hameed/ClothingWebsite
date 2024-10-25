@@ -43,7 +43,7 @@ const HeroSection = () => {
 
             {/* Image */}
             <img
-              src="/src/assets/0.png" // Replace with your image path
+              src="/0.png" // Replace with your image path
               alt="Model"
               className="h-full object-cover z-10"
             />
